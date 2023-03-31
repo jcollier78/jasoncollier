@@ -109,6 +109,7 @@
 
   .hero {
     background-color: lightgrey;
+    padding-block: 2rem;
   }
 
   .hero-text {
@@ -122,6 +123,7 @@
   .main-container {
     --gap: 2rem;
 
+    padding-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap, 1rem);
@@ -139,4 +141,11 @@
     background-color: lightgreen;
   }
 
-  .contact-form div { display: grid; }
+  .sidebar-contact div { 
+    display: grid; 
+  }
+
+  .contact-form {
+    display: grid;
+    gap: 1rem;
+  }
