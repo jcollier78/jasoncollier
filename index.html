@@ -9,6 +9,10 @@
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Zeyada&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,8 +25,8 @@
     <header>
         <div class="container header">
             <div class="logo">
-                <p>Jason Collier</p>
-                <p>Web Designer</p>
+                <p class="logo-text">Jason Collier</p>
+                <p class="logo-tagline">Web Designer</p>
             </div>
             <nav class="primary-navigation">
                 <ul class="primary-navigation__list">
@@ -74,7 +78,8 @@
                     <article class="card">
                         <h3 class="card__title">Online Advertising</h3>
                         <p class="card__description">SEO takes time get results as you build your authority and ranking
-                            with search engines. Use pay-per-click (PPC) advertising to get the ball rolling until your SEO kicks in.</p>
+                            with search engines. Use pay-per-click (PPC) advertising to get the ball rolling until your
+                            SEO kicks in.</p>
                         <a href="website-design.html" class="btn btn-primary">Learn more</a>
                     </article>
                 </section>
@@ -98,8 +103,10 @@
 
             <aside class="sidebar-contact">
                 <h3>Ready to get started?</h3>
-                <p>Call me to discuss your project on <a href="tel:+61413853212">0413 853 212</a>, or complete the form
-                    below and let me know how I can help and the best time to contact you.</p>
+                <p>Call me to discuss your project</p>
+                <a href="tel:+61413853212" class="btn btn-primary"><i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    0413 853 212</a>
+                <p>or complete the form below and let me know how I can help, and the best time to contact you.</p>
                 <form class="contact-form">
                     <div class="row">
                         <label for="fname">First name:</label>
@@ -128,9 +135,44 @@
 
     <footer>
         <div class="container">
-            <p>Footer</p>
-            <p>ABN: <a href="https://abr.business.gov.au/ABN/View?abn=56596406533" target="_blank">56 596 406 533</a>
-            </p>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <p class="logo-text">Jason Collier</p>
+                    <p class="logo-tagline">Web Designer</p>
+                    <br>
+                    <p style="font-size: 0.75rem;">ABN: <a href="https://abr.business.gov.au/ABN/View?abn=56596406533"
+                            target="_blank">56 596 406
+                            533</a>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <p>Contact Details:</p>
+                    <p>Booragoon, WA 6154</p>
+                    <p>M: <a href="tel:+61413853212">0413 853 212</a></p>
+                </div>
+                <div class="footer-col">
+                    <p>Site Menu:</p>
+                    <ul class="footer-menu__list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="website-design.html">Website Design</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Socials:</p>
+                    <ul class="socials__list">
+                        <li><a href="#"><span class="visually-hidden">Facebook</span><i style="color: #4267B2"
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><span class="visually-hidden">Instagram</span><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><span class="visually-hidden">Youtube</span><i style="color: #FF0000"
+                                    class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><span class="visually-hidden">LinkedIn</span><i style="color: #0077B5"
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 

@@ -1,3 +1,8 @@
+:root {
+  --cursiveFont: 'Zeyada', cursive;
+  --primaryFont: 'Lato', sans-serif;
+}
+
 /* RESET */
 /*
   1. Use a more-intuitive box-sizing model.
@@ -45,8 +50,7 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
-  /*
-  
+
   /* UTILITIES */
 
   .container {
@@ -67,6 +71,7 @@
 
   .btn {
     display: inline-block;
+    margin-block: 1rem;
     padding: 0.5em 1em;
     border: 1px solid green;
     border-radius: 5px;
@@ -80,7 +85,7 @@
   /* CUSTOM STYLES */
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--primaryFont);
     overflow-x: hidden;
   }
 
@@ -96,6 +101,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .logo-text {
+    font-family: var(--cursiveFont);
+    font-size: 3rem;
+  }
+
+  .logo-tagline {
+    margin-top: -1.5rem;
+    margin-left: 2rem;
   }
 
   .primary-navigation {
@@ -167,6 +182,38 @@
     display: grid; 
   }
 
+
+  /* Footer */
+
   footer {
     background-color: lightgreen;
+  }
+
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-cols .footer-col:not(:first-child) {
+    margin-top: 2rem;
+  }
+
+  .footer-col {
+    flex: 1;
+  }
+
+  .footer-menu__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .socials__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .socials__list i {
+    font-size: 2rem;
   }
