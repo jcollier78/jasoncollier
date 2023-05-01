@@ -1,4 +1,4 @@
 Have a FAQ on the home page:
 Q: Why are there no prices on your website?
-A: Annoying though this sounds, the answer is because the price depends. Depends on what? Wll the exten of the project. A simple single page brochure website where all the content is provided will be a lot less than a multipage website where the content needs to be optimised (SEO).
+A: Annoying though this sounds, the answer is because the price depends. Depends on what? Well the extent of the project. A simple single page brochure website where all the content is provided will be a lot less than a multi-page website where the content needs to be optimised (SEO).
 
